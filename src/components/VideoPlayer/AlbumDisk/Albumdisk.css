@@ -1,0 +1,27 @@
+.album {
+    animation: rotate 3s infinite linear;
+    background: url('/src/assets/album.svg');
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.albumImage {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

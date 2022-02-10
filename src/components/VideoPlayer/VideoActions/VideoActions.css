@@ -1,0 +1,24 @@
+.actions {
+    position: absolute;
+    bottom: 122px;
+    right: 8px;
+    z-index: 1;
+
+}
+.action  { 
+
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 0.8;
+    background: transparent;
+    border: 0;
+
+
+}
+
