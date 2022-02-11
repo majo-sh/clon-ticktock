@@ -6,7 +6,7 @@ export default function VideoDescription({author, description, albumImage, songT
     return (
         <footer className="footer">
             <div className="textWrapper">
-                <strong className="author">{author}</strong>
+                <strong className="author">@{author}</strong>
                 <p className="description">{description}</p>
                 <SongTiker songTitle ={songTitle} /> 
             </div>

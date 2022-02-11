@@ -6,7 +6,7 @@ import VideoPlayerActions from './VideoActions/VideoPlayerActions.jsx';
 
 
 
-export default function VideoPlayer ({author, description, albumImage, songTitle, src}) {
+export default function VideoPlayer ({author, description, albumImage, songTitle, src, avatar}) {
     const [playing, setPlaying] = useState(false)
     const video = useRef()
     const handlePLayer = () => {
@@ -31,7 +31,11 @@ export default function VideoPlayer ({author, description, albumImage, songTitle
             <video className="video" src={src} loop controls={false} ref={video} onClick={handlePLayer}/>
 
             <i className={playerClasName} onClick={handlePLayer}></i>
-            <VideoPlayerActions/>
+            <VideoPlayerActions 
+            author={author}
+            avatar={avatar}
+    
+            />
             <VideoDescription
             albumImage={albumImage}
             author={author}
