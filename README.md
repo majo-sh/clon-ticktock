@@ -4,8 +4,8 @@ Proyecto realizado para practicar react, esta fundamentado en el video de [midud
 
 ## Realizado con
 ### Front-end
-- react con create-ract-app
+- React con create-ract-app
 ### Back-end
-- supabase
+- Supabase
 
 
