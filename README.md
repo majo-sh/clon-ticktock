@@ -8,4 +8,7 @@ Proyecto realizado para practicar react, esta fundamentado en el video de [midud
 ### Back-end
 - Supabase
 
+## Link del proyecto
+[Proyecto](https://clon-ticktock.vercel.app/)
+
 
